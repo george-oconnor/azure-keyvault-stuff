@@ -6,12 +6,12 @@ A package that provides functionality for interacting with an Azure Keyvault
 
 Run the following to install the package:
 
-``python -m pip install azure-keyring-stuff``
+``python -m pip install azure-keyvault-stuff``
 
 ## Usage
 
 ```python
-from azure_keyring_stuff import getClient, getSecret, setSecret, deleteSecret
+from azure_keyvault_stuff import getClient, getSecret, setSecret, deleteSecret
 from azure.identity import DefaultAzureCredential
 
 client = getClient(vault_name="VAULT_NAME", credential=DefaultAzureCredential())
